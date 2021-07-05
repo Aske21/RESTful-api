@@ -4,6 +4,7 @@ import bodyParser from "body-parser";
 
 import logging from "./config/logging";
 import config from "./config/config";
+import sampleRoutes from "./routes/sample";
 
 const NAMESPACE = "Server";
 const router = express();
@@ -49,6 +50,7 @@ router.use((req, res, next) => {
 });
 
 // routes
+router.use("/ping", sampleRoutes);
 
 // err handling
 router.use((req, res, next) => {
