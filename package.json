@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Aske21/RESTful-api#readme",
   "devDependencies": {
     "@types/express": "^4.17.12",
+    "@types/mongoose": "^5.11.97",
     "@types/node": "^16.0.0",
     "nodemon": "^2.0.9",
     "ts-node-dev": "^1.1.8",
@@ -27,6 +28,7 @@
   },
   "dependencies": {
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3"
   }
 }
