@@ -32,7 +32,7 @@ router.use((req, res, next) => {
 router.use(bodyParser.urlencoded({ extended: false }));
 router.use(bodyParser.json());
 
-// rules of api
+
 // in prod ips and routes should be predefined //
 router.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
